@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Java</title>
+    <script src="./Calculadora.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Practica</h1>
+        </div>
+        <div>
+            <input type="number" name="v1" id="V1" value="" placeholder="Primer valor" onblur="captura1()">
+            <input type="number" name="v2" value="" id="V2" placeholder="Segundo valor" onblur="Captura2()">
+            <h2>Calculadora</h2>
+            <input class="op" type="button" value="+" onclick="suma()">
+            <input class="op" type="button" value="-" onclick="Resta()">
+            <input class="op" type="button" value="*" onclick="Mult()">
+            <input class="op" type="button" value="/" onclick="divi()">
+            <h2 id="rtd">El resultado de la es: </h2>
+        </div>
+    </div>
+</body>
+</html>

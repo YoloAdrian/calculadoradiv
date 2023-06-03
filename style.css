@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-family: cursive;
+}
+.op:hover{
+    background-color: red;
+}
+#rtd{
+    color:orange
+}
